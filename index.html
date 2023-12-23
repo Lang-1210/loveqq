@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script>
+			setTimeout(function(){
+				window.location.href = "c01.html"; // 在5秒钟后跳转到second.html页面
+			}, 6000); // 5000毫秒 = 5秒
+	  	</script>
+	
+		<style type="text/css">
+			@import url("https://fonts.googleapis.com/css2?family=Bad+Script:wght@100;300;400;700;900&display=swap");
+
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: 'Bad Script',cursive;
+				
+
+			}
+			body{
+				width: 100%;
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color:#000000;
+				
+			}
+			h2{
+				display: flex;
+				color: transparent;
+				font-size: 10vw;
+			}
+			h2 span{
+				animation: animate 3s linear infinite;
+				animation-delay: calc(0.1s * var(--i));
+			}
+			h3{
+				display: flex;
+				justify-content:space-between;
+				align-items:center;
+				
+			}
+			h3 span:last-child{
+				font-size: 5vw;
+				color: white;
+
+			}
+			@keyframes animate{
+
+				0%{
+					color:#FFFFFF;
+					filter: blur(2px) hue-rotate(0deg);
+					text-shadow: 0 0 10px #00b3ff,
+					0 0 20px #00b3ff,
+					0 0 40px #00b3ff,
+					0 0 80px #00b3ff,
+					0 0 120px #00b3ff,
+					0 0 200px #00b3ff,
+					0 0 300px #00b3ff,
+					0 0 400px #00b3ff;
+				}
+				30%,70%{
+					color:#FFFFFF;
+					filter: blur(2px) hue-rotate(360deg);
+					text-shadow: 0 0 10px #00b3ff,
+					0 0 20px #00b3ff,
+					0 0 40px #00b3ff,
+					0 0 80px #00b3ff,
+					0 0 120px #00b3ff,
+					0 0 200px #00b3ff;
+				}
+				100%{
+					color: transparent;
+					box-shadow: none;
+					filter: blur(2px) hue-rotate(0deg);
+					
+				}
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<h2>
+				<!-- <span style="--i:1;">H</span>
+				<span style="--i:2;">a</span>
+				<span style="--i:3;">p</span>
+				<span style="--i:4;">p</span>
+				<span style="--i:5;">y</span>
+				
+				<span style="--i:7;margin-left: 5vw;">N</span>
+				<span style="--i:8;">e</span>
+				<span style="--i:9;">w</span>
+				
+				<span style="--i:11;margin-left: 5vw;">Y</span>
+				<span style="--i:12;">e</span>
+				<span style="--i:13;">a</span>
+				<span style="--i:13;">r</span> -->
+				<span style="--i:1;">H</span>
+				<span style="--i:2;">a</span>
+				<span style="--i:3;">p</span>
+				<span style="--i:4;">p</span>
+				<span style="--i:5;">y</span>
+				
+				<span style="--i:7;margin-left: 5vw;">C</span>
+				<span style="--i:8;">h</span>
+				<span style="--i:9;">r</span>
+				<span style="--i:10;">i</span>
+				<span style="--i:11;">s</span>
+				<span style="--i:12;">t</span>
+				<span style="--i:13;">m</span>
+				<span style="--i:14;">a</span>
+				<span style="--i:15;">s</span>
+			</h2>
+			<h3>
+				<span>
+				
+				</span>
+				<span>
+				--MQQ
+				</span>
+			</h3>
+		</div>
+	</body>
+</html>
